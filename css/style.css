@@ -866,7 +866,7 @@ html {
   background-color: #ff6433;
   transition: all 0.3s;
 }
-/* ==========================================FAQ========================= */
+/* ==========================================FAQ=========================    */
 .faq__content {
   display: flex;
   flex-direction: column;
@@ -926,14 +926,14 @@ html {
   right: 0;
   width: 52px;
   height: 48px;
-  background-image: url("/images/questions/Orange-plus.svg"); /* Путь к изображению по умолчанию */
+  background-image: url("../images/questions/Orange-plus.svg"); /* Путь к изображению по умолчанию      */
   background-repeat: no-repeat;
   background-size: cover;
   transition: opacity 0.3s ease-in-out;
 }
 
 .faq__acc-link--active .faq__acc-img {
-  background-image: url("/images/questions/Orange-minos.svg"); /* Измените путь к изображению при активации */
+  background-image: url("../images/questions/Orange-minos.svg"); /* Измените путь к изображению при активации   */
 }
 
 /* ==========================================FEEDBACK========================= */
